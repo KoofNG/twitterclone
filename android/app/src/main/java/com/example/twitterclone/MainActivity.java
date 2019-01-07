@@ -1,4 +1,4 @@
-package com.example.twitter;
+package com.example.twitterclone;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
