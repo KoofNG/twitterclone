@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:twitter/pages/profileTweets.dart';
+
 class ProfilePage extends StatefulWidget {
   @override
   _ProfilePage createState() => _ProfilePage();
@@ -377,9 +379,9 @@ class _ProfilePage extends State<ProfilePage> {
               ),
             ];
           },
-          body: Container(),
+          body: ProfileTweets(),
+          ),
         ),
-      ),
     );
   }
 }
